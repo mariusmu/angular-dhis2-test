@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    margin: 0;
+    font-family: monospace;
+}
+
+.app {
+    display: flex;
+    align-items: stretch;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0;
+    bottom: 0;
+}
+
+
+.form {
+    background-color: #DDD;
+    flex: 1;
+    padding: 3rem;
+}
+
+.list {
+    flex: 1;
+    height: 100%;
+    padding: 3rem;
+    overflow-y: scroll;
+}

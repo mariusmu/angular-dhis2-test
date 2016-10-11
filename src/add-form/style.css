@@ -1,0 +1,36 @@
+
+.form {
+    background-color: #DDD;
+    flex: 1;
+    padding: 3rem;
+}
+
+ div {
+    display: flex;
+}
+
+label {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-bottom: 1rem;
+    align-items: center;
+}
+
+span {
+    flex: 1;
+}
+
+input {
+    flex: 2;
+    padding: 1rem;
+    border: 0;
+    font-size: 1rem;
+}
+
+button {
+    width: 100%;
+    background-color: orange;
+    border: 0;
+    padding: 1rem;
+}

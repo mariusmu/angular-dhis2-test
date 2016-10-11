@@ -1,0 +1,24 @@
+<link rel="stylesheet" href="style.css">
+    <form (submit)="displayName($event)">
+        <div>
+            <label>
+                <span>Name</span>
+                <input id="name" type="text" #t (change)="fullNameChange(t.value)" />
+            </label>
+        </div>
+        <div>
+            <label>
+                <span>Short name</span>
+                <input id="shortName" type="text" #t (change)="shortNameChange(t.value)" />
+            </label>1
+        </div>
+        <div>
+            <label>
+                <span>Opening date</span>
+                <input id="openingDate" type="date" />
+            </label>
+        </div>
+        <div>
+            <button (click)="displayName($event)">Submit</button>
+        </div>
+    </form>
