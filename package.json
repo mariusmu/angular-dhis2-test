@@ -2,7 +2,7 @@
   "name": "DHIS-toplevel-org",
   "version": "0.0.1",
   "author": {
-    "name": "Jørn Are Hatlelid"
+    "name": "Marius Munthe-Kaas"
   },
   "description": "DHIS2 top level organization",
   "scripts": {
